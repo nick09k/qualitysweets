@@ -1,0 +1,412 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.right-menu li{
+display: inline-block;
+margin-top: 30px !important;
+}
+.right-menu li .fa{
+	font-size: 18px;
+	margin-right: 10px;
+	cursor: pointer;
+
+}
+
+.navbar-brand{
+	left: 50%;
+	top: 20px;
+	transform: translateX(-50%);
+	position: absolute;
+
+}
+.navbar-brand span{
+	font-size: 40px;
+	font-family: 'Rye', cursive;
+}
+.header{
+	background: #e6f2ff;
+	margin-bottom: 80px;
+}
+.navbar{
+	padding: 0 35px !important;
+}
+.navbar-toggler{
+	border: none !important;
+	outline: none !important;
+	padding: 0 !important;
+	margin-top: 30px;
+
+}
+.navbar-toggle .fa{
+	font-size: 30px;
+	cursor: pointer;
+}
+.banner-img{
+	width: 60%;
+	margin: 80px 115px;
+
+}
+.banner-img img{
+	width: 80%;
+	margin-bottom: -80px;
+}
+.banner{
+	position: relative;
+}
+
+.banner-title{
+	position: absolute;
+	left: 50%;
+	top: 20%;
+}
+.tags{
+	font-size: 40px;
+	background: rgba(0,0,0,0.75);
+	color:#fff;
+	line-height: 60px;
+	padding: 0 10px 0 5px;
+}
+
+.VENOM{
+	font-size: 55px;
+	background: rgba(0,0,0,0.75);
+	color:#fff;
+	line-height: 70px;
+	padding: 0 10px 0 30px; 
+}
+
+.fashion-trend{
+	padding: 80px 20px;
+}
+.fashion-box{
+	margin: -10px 20px;
+}
+.title-style h1{
+	padding: 20px 0;
+}
+.title-style{
+	margin: 0 auto 80px;
+	height: 80px;
+	width: 80%;
+	max-width: 700px;
+	background: #fff;
+	position: relative;
+	box-shadow:  0 4px 5px 0 rgba(0,0,50,0.5);
+	font-family: 'Fira Sans', sans-serif;
+}
+
+.title-style::after{
+	content: '';
+	height: 80px;
+	width: 200px;
+	background-color: #f992a6;
+	position: absolute;
+	top: -10px;
+	left: -9px;
+	z-index: -1;
+
+}
+
+.title-style::before{
+	content: '';
+	height: 80px;
+	width: 200px;
+	background-color: #f992a6;
+	position: absolute;
+	bottom:-10px;
+	right: -9px;
+	z-index: -1;
+}
+.trending-img{
+	position: relative;
+	margin-bottom: 25px;
+}
+.trending-img img{
+	width: 100%;
+	height: 80vh;
+}
+.btn-buy{
+	width: 150px;
+	padding:10px 0;
+	outline: 0;
+	border-radius: 2px;
+	border: 0;
+	position: absolute;
+	background: #fff;
+	left: 50%;
+	bottom: 0;
+	transform: translate(-50%,0);
+	opacity: 0;
+	z-index:1;
+	transition: .5s;
+}
+.trending-img:hover .btn-buy{
+	transform: translate(-50%,-50%);
+	bottom: 45%;
+	opacity: 1;
+
+
+}
+.overlay{
+	height: 0%;
+	width: 100%;
+	background: #333;
+	position: absolute;top: 0;
+	opacity: 0;
+	transition: .5s;
+
+}
+.trending-img:hover .overlay{ 
+	opacity: .5;
+	height: 100%;
+
+}
+/*
+offer*/
+.offer{
+	background-image:url(banner2.jpeg); 
+	background-size: cover;
+	background-position: center;
+}
+.row{
+	margin: initial !important;
+}
+.subscribe{
+	max-width: 500px;
+	margin-top: 80px;
+	padding: 60px;
+	background: #ffffff8c;
+	margin-bottom: 20px;
+}
+.subscribe a{
+	width: 100px;
+	display:block ;
+	color: #fff !important;
+	background: #000;
+	text-decoration:none !important;
+	padding: 5px;
+	text-align: center;
+
+}
+.offer img{
+	width: 300px;
+	height: 400px;
+	margin: -50px;
+	margin-top: 150px;
+}
+/*
+-----fashion blog----*/
+.fashion-blog{
+	margin: 150px 0 150px 0 ;
+}
+.blog-img {
+	margin-top: 50px;
+	height: 300px;
+	width: 400px;
+	display:inline-block;
+}
+
+.blog-img img{
+	width: 100%;
+	height: 100%;
+}
+.blog-img h5{
+	margin-top: 20px;
+	font-weight: bold;
+}
+/*<!--fasfion brand-->*/
+.fashion-brands{
+	margin-bottom: 150px;
+}
+.brand-logo{
+	width: 200px;
+	height: 200px;
+	background: #fff;
+	border-radius: 50%;
+	margin: 50px auto 30px;
+	box-shadow: 0 2px 40px 0 rgba(110,130,208,.18);
+
+
+}
+.brand-logo img{
+	/*width: 100px;
+	margin: 50px auto;*/
+	width:100%;
+	height: 100%; 
+	border-radius: 50%;
+
+}
+.fashion-brands p{
+	margin-top: 10px;
+	font-weight:bold;
+}
+/*----foter--*/
+.footer{
+	margin-top: 150px;
+	background: #000;
+	color: #fff;
+}
+
+.hotel{
+	margin: 50px 10px;
+}
+.hotel img{
+	width: 40%;
+	height: 30vh;
+}
+ .res{
+	position: relative;
+	font-weight: bold;
+	font-size: 40px;
+	margin: 50px 0 10px -20%;
+	text-align: center;
+	font-family: 'Rye', cursive;
+}
+.title-hotel hr{
+	width: 80%;
+}
+
+.title-hotel{
+	
+	display: inline-flex;
+
+}
+.title-hotel-copy{
+	display: none;
+}
+.address{
+ margin: 80px 10px 0 -90%;
+ cursor: pointer;
+
+}
+.contact{
+	cursor: pointer;
+	margin: 80px 10px 0 20px;	
+}
+.mail{
+	cursor: pointer;
+	 margin: 80px auto 0 20px;
+
+}
+.footer-icons{
+	text-align: right;
+}
+.footer-icons .fa{
+	margin: 0 10px auto;
+	font-size: 20px;
+	cursor: pointer;
+
+}
+
+/*for mobile device*/
+@media only screen and (max-width: 900px)
+{
+	.banner-img{
+		margin: 30px 15%;
+		width: 90%;
+	}
+	.banner-title{
+		top: 120px;
+		left: 50%;
+		transform: translateX(-50%);
+
+	}
+	.banner-title h1{
+		font-size: 16px;
+		line-height: 20px;
+		/*text-align: center;*/
+		padding-left: 5px;
+	}
+	.title-style h1{
+		font-size: 25px;
+	}
+	/*.offer img{
+		margin-top: 20px !important;
+		margin-bottom: 0 !important;
+	}*/
+
+.footer-icons{
+	text-align: center;
+}
+.copyright{
+	text-align: center;
+}
+.trending-img{
+	position: relative;
+	margin-bottom: 25px;
+	text-align: center;
+}
+.trending-img img{
+	width: 80%;
+	height: 40vh;
+}
+
+/**/
+.hotel{
+	margin: 20px 10px;
+}
+.hotel img{
+	width: 30%;
+	height: 20vh;
+}
+ .res{
+	position: relative;
+	font-weight: bold;
+	font-size: 40px;
+	margin: 50px 0 10px -20%;
+	text-align: center;
+
+}
+.title-hotel-copy hr{
+	width: 90%;
+	background-color: #fff;
+	margin: 5px 0;
+	
+}
+.title-hotel{
+	display: none;
+
+}
+.title-hotel-copy{
+	display: block;
+	color: #fff;
+
+}
+.address-copy{
+	margin: 10px 5px;
+}
+
+.contact-copy{
+	margin: 5px 5px;
+}
+
+.mail-copy{
+	margin: 10px 5px;
+}
+
+/**********/
+.blog-img {
+	margin-top: 20px;
+	height: 150px;
+	width: 200px;
+
+}
+
+.blog-img img{
+	width: 100%;
+	height: 100%;
+}
+.blog-img h5{
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+/*********************/
+.offer img{
+	width: 250px;
+	height: 250px;
+	margin: -50px;
+	margin-top: 150px;
+}
+}
